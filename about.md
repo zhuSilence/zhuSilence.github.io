@@ -9,10 +9,13 @@ title: 关于我
 <p>
 了解一些 前端 基本概念和 Linux服务器 的知识。
 
+<p>
 感谢<a href="http://baixin.io" target="_blank">leopardpan</a>提供blog模板和文章给出的支持。
+<p>
 
+<p>
 <a href="https://github.com/zhuSilence" target="_blank">Github</a>
 
 <a href="http://blog.csdn.net/u010900376" target="_blank">CSDN</a>
-
+<p>
 

@@ -14,8 +14,8 @@ title: 关于我
 <p>
 
 <p>
-<a href="https://github.com/zhuSilence" target="_blank">Github</a>
+<a href="https://github.com/zhuSilence" target="_blank">个人Github</a>
 
-<a href="http://blog.csdn.net/u010900376" target="_blank">CSDN</a>
+<a href="http://blog.csdn.net/u010900376" target="_blank">个人CSDN</a>
 <p>
 

@@ -5,7 +5,7 @@ description: just for fun~
 # 头像里面的标题
 avatarTitle: silence
 # 头像里面的描述
-avatarDesc: java
+avatarDesc: java，励志全栈工程师
 url: ""
 
 # Comment
@@ -23,13 +23,13 @@ social:
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
 baidu:
-    id: 8ba1c6be0953b6f9c2ba38e57f615421  
+    id: 770a4ac62c4d64e5bdc1e59443d24cfc
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
 ga:
-    id: UA-84134159-3   
-    host: auto  
+    id: UA-84134159-3
+    host: auto
 
 
 # 《----------------- 上面的信息修改成你自己的 ---------------------------》

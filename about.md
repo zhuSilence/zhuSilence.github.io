@@ -16,8 +16,6 @@ title: 关于我
 感谢<a href="http://baixin.io" target="_blank">leopardpan</a>提供blog模板和文章给出的支持。
 <p>
 
-<p>
-[个人Github](https://github.com/zhuSilence)
-[个人CSDN](http://blog.csdn.net/u010900376)
-<p>
+[个人Github](https://github.com/zhuSilence "个人Github")
 
+[个人CSDN](http://blog.csdn.net/u010900376 "个人CSDN")

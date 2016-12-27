@@ -17,7 +17,7 @@ title: 关于我
 <p>
 
 <p>
-[个人Github](https://github.com/zhuSilence "个人Github")
-[个人CSDN](http://blog.csdn.net/u010900376 "个人CSDN")
+[个人Github](https://github.com/zhuSilence)
+[个人CSDN](http://blog.csdn.net/u010900376)
 <p>
 

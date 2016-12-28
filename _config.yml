@@ -1,7 +1,7 @@
 # Basic
 title: 朱翔
 subtitle: 个人站
-description: just for fun~
+description: just for fun ~
 # 头像里面的标题
 avatarTitle: silence
 # 头像里面的描述
@@ -11,7 +11,7 @@ url: ""
 # Comment
 comment:
     # disqus: leopard
-    duoshuo: leopard 
+    duoshuo: silence
 
 # Social
 social:

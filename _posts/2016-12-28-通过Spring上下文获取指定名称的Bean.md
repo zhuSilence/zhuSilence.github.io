@@ -1,3 +1,10 @@
+---
+layout: post
+title: 通过Spring上下文获取指定名称的Bean
+date: 2017-12-28
+tag: Spring
+---
+
 ### 通过Spring上下文获取指定名称的Bean
 
 在进行Spring或者SpringBoot项目开发的时候，往往有很多情况我们需要在工具类或者其他

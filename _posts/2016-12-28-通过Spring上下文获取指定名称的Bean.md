@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 通过Spring上下文获取指定名称的Bean
-date: 2017-12-28
+date: 2016-12-28
 tag: Spring
 ---
 

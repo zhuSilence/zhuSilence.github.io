@@ -10,8 +10,8 @@ url: ""
 
 # Comment
 comment:
-     disqus: silence
-    # duoshuo: silence
+    # disqus: silence
+     duoshuo: silence
 
 # Social
 social:

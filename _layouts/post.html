@@ -18,6 +18,19 @@ layout: default
     {{ content }}
 
   </section>
+
+
+  <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+  <script>
+      var cloudTieConfig = {
+          url: document.location.href,
+          sourceId: "",
+          productKey: "be854f63f70b4dc482f9d1c229f7c13d",
+          target: "cloud-tie-wrapper"
+      };
+  </script>
+  <script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
+
 </article>
 
 {% include new-old.html %}

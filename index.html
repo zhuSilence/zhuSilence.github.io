@@ -1,35 +1,79 @@
 ---
 layout: default
 ---
+<style type="text/css">
+    #card, #list {
+        position: absolute;
+        top: 15px;
+        right: 4%;
+        cursor: pointer;
+        border: 1px;
+        border-radius: 10px;
+        color: #ffffff;
+    }
+</style>
+<script type="text/javascript">
+    //卡片
+    function toggleCard() {
+        var css = '.post-div-li {float: left;width: 45%;height: 395px;margin: 0 5% 20px 0;}.excerpt {height: 250px;word-break: break-word;}.post-list__post-title {height: 30px;overflow: hidden;}.post-list__post-title a {font-weight: bold;}';
+        loadStyleString(css);
+        document.getElementById('card').style.display = 'none';
+        document.getElementById('list').style.display = 'block';
+    }
+    //便条
+    function toggleList() {
+        var style = document.getElementById('cardStyle');
+        style.parentNode.removeChild(style);
+        document.getElementById('card').style.display = 'block';
+        document.getElementById('list').style.display = 'none';
+    }
+    function loadStyleString(cssText) {
+        var style = document.createElement("style");
+        style.type = "text/css";
+        style.id = 'cardStyle';
+        try {
+            // firefox、safari、chrome和Opera
+            style.appendChild(document.createTextNode(cssText));
+        } catch (ex) {
+            // IE早期的浏览器 ,需要使用style元素的stylesheet属性的cssText属性
+            style.styleSheet.cssText = cssText;
+        }
+        document.getElementsByTagName("head")[0].appendChild(style);
+    }
 
+</script>
+<button id="card" onclick="toggleCard()">切换卡片</button>
+<button id="list" style="display: none" onclick="toggleList()">切换便条</button>
 <div class="main-post-list hidden">
 
     <ol class="post-list">
         {% for post in paginator.posts %}
-        <li>
-            <h2 class="post-list__post-title post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{
-                post.title }}</a></h2>
-            <p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 250 }}&hellip;</p>
-            <div class="post-list__meta">
-                <time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">
-                    <img src="/images/calendar.png" width="20px"/>
-                    {{ post.date | date: "%F"}}
-                </time>
-                <div class="tag-img-icon">
-                    <img src="/images/tag-icon.svg" width="20px"/>
-                </div>
-                <a href="/tags">
-                    <div class="post-list-icon-mate">
-                        <span class="post-list__meta--tags-right">{{ post.tags }}</span>
+        <div class="post-div-li">
+            <li>
+                <h2 class="post-list__post-title post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{
+                    post.title }}</a></h2>
+                <p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 250 }}&hellip;</p>
+                <div class="post-list__meta">
+                    <time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">
+                        <img src="/images/calendar.png" width="20px"/>
+                        {{ post.date | date: "%F"}}
+                    </time>
+                    <div class="tag-img-icon">
+                        <img src="/images/tag-icon.svg" width="20px"/>
                     </div>
-                </a>
-                <div class="post-list-small-mate">
-                    <a class="btn-border-small" href={{ post.url }}>阅读全文 » </a>
-                </div>
+                    <a href="/tags">
+                        <div class="post-list-icon-mate">
+                            <span class="post-list__meta--tags-right">{{ post.tags }}</span>
+                        </div>
+                    </a>
+                    <div class="post-list-small-mate">
+                        <a class="btn-border-small" href={{ post.url }}>阅读全文 » </a>
+                    </div>
 
-            </div>
-            <hr class="post-list__divider"/>
-        </li>
+                </div>
+                <hr class="post-list__divider"/>
+            </li>
+        </div>
         {% endfor %}
     </ol>
 

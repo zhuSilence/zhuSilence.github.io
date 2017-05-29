@@ -9,7 +9,7 @@ tag: spark,大数据
 最近老大突发奇想，准备让我们自己搭建spark集群来处理数据，既然有需求就有学习的动力。带着激动的心情最近看起了spark的学习文档。在虚拟机上装了spark，使用java代码跑了一个Word Count例子，用来学习。
 
 ### Work Count
-#### maven依赖
+### maven依赖
 ``` <dependencies>
             <dependency>
                 <groupId>org.apache.spark</groupId>
@@ -19,7 +19,7 @@ tag: spark,大数据
         </dependencies>
 ```
 
-#### java代码
+### java代码
 ```java
 public class WordCount {
 
@@ -48,7 +48,7 @@ public class WordCount {
 ```
 > conf.setMaster("local");设置单机模式，"local"为固定值；conf.setAppName("wordCount");设置应用名称；x.split(" ");设置文件分隔符。
 
-#### 结果
+### 结果
 ```
 19:13:46,3,19---1
 bcec23e1421a,Skyworth,G7200,CCADTV10004,0,,,,,,,0,video,171.121.96.220,山西省,吕梁市,1,0,2017-03-29---4

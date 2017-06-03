@@ -2,7 +2,7 @@
 layout: post
 title: Spark初体验Word Count
 date: 2017-05-24
-tag: spark,大数据
+tag: spark，大数据
 ---
 
 ### Spark初体验

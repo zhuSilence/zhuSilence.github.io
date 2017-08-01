@@ -15,6 +15,7 @@ tag: Maven插件 静态资源Hash
 1. 复制webapp下的文件到临时文件夹；
 2. 遍历临时文件夹里面的js和css文件，并进行Hash值计算，保存在Map中；
 3. 遍历页面文件，替换里面的引用的js和css文件名。
+
 > 插件主要的工作是完成2，3两步，第1步有插件已经实现了，拿来用就好。
 
 ### maven插件代码
@@ -270,6 +271,7 @@ tag: Maven插件 静态资源Hash
 
 ### 插件使用
 1. 复制文件插件
+
 ``` xml
 <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

@@ -5,11 +5,14 @@ header: 根据快速导航到相应的文章
 group: navigation
 ---
 {% include JB/setup %}
-
-<ul class="tag_box inline">
-  {% assign tags_list = site.tags %}  
-  {% include JB/tags_list %}
-</ul>
+<div style="width:100%;">
+  <div class="tagcloud">
+    <!--<ul class="tag_box inline">-->
+      {% assign tags_list = site.tags %}
+      {% include JB/tags_list %}
+    <!--</ul>-->
+  </div>
+</div>
 
 <div class = "card">
 {% for tag in site.tags %} 
@@ -23,3 +26,15 @@ group: navigation
 
 {% endfor %}
 </div>
+
+<script type="text/javascript">
+    tagcloud({
+        //参数名: 默认值
+        fontsize: 22,       //基本字体大小
+        radius: 60,         //滚动半径
+        mspeed: "normal",   //滚动最大速度
+        ispeed: "normal",   //滚动初速度
+        direction: 150,     //初始滚动方向
+        keep: true          //鼠标移出组件后是否继续随鼠标滚动
+    });
+</script>

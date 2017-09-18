@@ -2,7 +2,7 @@
 layout: post
 title: 静态资源文件Hash缓存maven插件
 date: 2017-07-31
-tag: Maven插件 静态资源Hash
+tag: Maven插件
 ---
 
 ### 背景

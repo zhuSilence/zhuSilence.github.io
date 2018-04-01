@@ -12,6 +12,7 @@ url: ""
 comment:
     # disqus: silence
     # duoshuo: silence
+    gittalk: silence
 
 # Social
 social:

@@ -15,7 +15,7 @@ tag: ARTS
    - S: Share, share something you like or interested or something special for you. Not only technologies but also life or inspiration.
 
 
-> The ARTS don't force you to use English to write, but it good for you to write articles in English.
+> The ARTS dosen't force you to use English to write, but it good for you to write articles in English.
 
 ## Let's do it!!!
 

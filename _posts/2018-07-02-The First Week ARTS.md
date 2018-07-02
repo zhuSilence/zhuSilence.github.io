@@ -106,8 +106,8 @@ public class TwoSum {
 ### Review
 Last week, we published a new version of our project. We used Distributed lock in our project.
 But we found the performance of services became decrease when we finished.
-So what's wrong what is??
-After we discussing, we found the problem, because we have 10 threads for each instance and we have 10 instances. Therefore, there was 100
+So what's wrong with is??
+After we discussing with each other, we found the problem, because we have 10 threads for each instance and we have 10 instances. Therefore, there was 100
 threads to try to get the lock, but only one can get the lock, so others must be waiting. They can't consume the message While they are waiting.
 Then we changed the strategy, adjust one thread for an instance. The problem was solved perfectly.
 

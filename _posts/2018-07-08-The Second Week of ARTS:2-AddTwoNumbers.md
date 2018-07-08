@@ -181,15 +181,26 @@ class ListNode {
     return dummyHead.next;
 ```
 ### Review
+This week read the article [the-power-of-doing-nothing-at-all](https://medium.com/swlh/the-power-of-doing-nothing-at-all-73eeea488b8b). Through the follower aspects author wants to tell us sometimes we should shut ourselves down.
+- Doing what matters vs. busy-bragging.
+- The extreme busyness epidemic.
+- The power of doing nothing at all.
+- On implementing “nothing” time.
+
+The author started with a story about an old crocodile and young crocodile. Through the story tells us that we should take a week off every year so that we have time to release ourselves to give your brain space to think and doing nothing.
 
 
 ### Tips
+
 1. public static void arraycopy(Object src, int srcPos, Object dest, int destPos, int length)
 - Object src : 原数组
 - int srcPos : 从原数组的起始位置开始
 - Object dest : 目标数组
 - int destPos : 目标数组的开始起始位置
 - int length  : 要copy的数组的长度
+
+2. for (Map.Entry<String, String> entry : subMap.entrySet()) {}
+- 对于map的遍历有多种方式，此种方式效率最高
 
 ### Share
 [Azkaban任务流](http://zxsilence.me/2018/07/%E4%BB%BB%E5%8A%A1%E8%B0%83%E5%BA%A6Azkaban(%E4%BA%8C)%E4%BB%BB%E5%8A%A1%E6%B5%81/)

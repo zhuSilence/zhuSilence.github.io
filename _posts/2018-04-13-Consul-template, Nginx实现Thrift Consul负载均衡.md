@@ -95,7 +95,7 @@ stream {
     access_log /var/log/nginx/tcp_access.log main;
 
     upstream cloudsocket {
-	{{range service "ad-rpc-device-server"}}server {{.Address}}:{{.Port}};{{end}}
+	\{\{range service "ad-rpc-device-server"}}server \{\{.Address}}:\{\{.Port}};{{end}}
     }
 
     server {

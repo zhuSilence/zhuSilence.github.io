@@ -86,9 +86,9 @@ public class Median_4 {
 > Thinking
 > 1. combine the two arrays as a new array
 > 2. sort the new array
-> 3. according to length of the new array decides how to calculate the median
+> 3. according to the length of the new array decides how to calculate the median
 > 4. if the even length the median is (sum[a] + sum[b]) / 2.0
-> 5. if the odd length the median is sum[array.lenth / 2.0]
+> 5. if the odd length the median is sum[array.length / 2.0]
 
 
 > 思路
@@ -102,7 +102,16 @@ public class Median_4 {
 ### Review
 #### [What motivates more: positive or negative feedback?](https://medium.com/swlh/what-motivates-more-positive-or-negative-feedback-9364133bd58b)
 This week I am going to talk about the article **What motivates more: positive or negative feedback?**
+- Motivation is hard to summon and harder to keep alive.
+> &emsp; Often, a sustained blast of it is all we need to kickstart a new career or complete a personal goal. And if we could harness it every day — well, we’d be unstoppable.
+> &emsp; Unfortunately, it’s rarely that simple. Motivation is hard to summon and harder to keep alive. As a resource, it’s as finite as they come (see also: its ever-flakey brother, inspiration).
 
+- It's also positive where there is a negative feedback.
+> &emsp; Negative feedback also can be positive although it's always feeling painful.
+> &emsp;[The Positive Power of Negative Thinking](https://www.amazon.com/Positive-Power-Negative-Thinking/dp/0465051391/)
+
+- Regular, scheduled feedback motivates more
+> &emsp; If skillful feedback is about paying attention, then it follows that giving it in small doses, focused on short time spans, is going to be more effective.
 
 ### Tips
 1. Linux统计日志文件的行数

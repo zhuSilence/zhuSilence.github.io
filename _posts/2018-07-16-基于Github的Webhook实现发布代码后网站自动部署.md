@@ -118,3 +118,13 @@ jekyll build
 ![Alt text](/images/posts/articles/2018-07-16/6.png)
 
 3. 如果显示200表示webhook成功，刷新页面观察内容是否更改即可。
+
+4. 写这篇文章前博客列表如下
+
+![Alt text](/images/posts/articles/2018-07-16/7.png)
+
+5. push代码到Github后，刷新页面
+
+![Alt text](/images/posts/articles/2018-07-16/8.png)
+
+![Alt text](/images/posts/articles/2018-07-16/9.png)

@@ -4,181 +4,101 @@
 */
 @import url(animate.css);
 @import url(tomorrow.css);
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
 
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block; }
+body/*此属性为全局*/
+{
+  font-size: 15px;/*更改默认的字体大小*/
+  color: #3e3e3e;
+  line-height: 1.8; /*更改默认的行距*/
+  word-spacing:2px; /*更改默认的词间距*/
+  letter-spacing:2px;/*更改默认的字符间距*/
+  font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;
 
-body {
-  line-height: 1; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; 
-  background-color: #f0f0f0;
+  /*增加背景网格*/
+  background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%), linear-gradient(360deg,rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%);
+  background-size: 20px 20px;
+  background-position: center center;
 }
-blockquote:before, blockquote:after {
-  content: '';
-  content: none; 
+body *
+{
+  font-size: inherit  ;
+  color: inherit;
+  line-height: inherit;
+  margin:0px;
+  padding:0px;
 }
 
-q:before, q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-body {
-  width: 100%;
-  *zoom: 1; 
+p {/*段落*/
+  margin: 1.7em 0px;/*更改默认的段落距离*/
 }
-body:before, body:after {
-  content: "";
-  display: table; 
+h1,h2,h3,h4,h5,h6 {
+  margin: 1.6em 0px;/*增加默认的标题间距*/
+  font-weight:bold;
 }
-body:after {
-  clear: both; 
-}
-
-html, body {
-  height: 100%; 
-}
-
-html {
-  height: 100%;
-  max-height: 100%; 
-}
-
-body {
-  font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  font-size: 1em;
-  color: #000000;
-  -webkit-font-smoothing: antialiased; }
-
-::selection {
-  background: #27408B; 
-  color: #ffffff}
-
-::-moz-selection {
-  background: #f39ca4; }
-
-a {
-  text-decoration: none;
-  color: #00688B; 
-
-}
-p a {
-  margin-left: 4px;
-  margin-right: 4px;
-  text-decoration: underline;
-}
-
-a:hover {
-  color: #0000CD;
-  -o-transition: .5s;
-  -ms-transition: .5s;
-  -moz-transition: .5s;
-  -webkit-transition: .5s; 
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h5 {
-  margin-top: 1.0em;
-  margin-bottom: .5em;
-  font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  font-weight: lighter;
-  color: #333333;
-  -webkit-font-smoothing: antialiased; }
-
 h1 {
-  margin-top: 0;
-  font-size: 2.0em;
-  line-height: 1.2em;
-  letter-spacing: .05em; 
-}
+  font-size: 1.6em  ;
 
+}
 h2 {
-  font-size: 1.5em; 
-  /*background:#B9D3EE;*/
-  /*text-align: center;*/
+  font-size: 1.4em;
 }
-
 h3 {
-  font-size: 1.2em; 
-  text-indent: 4px; 
-  border-radius: 4px; 
-  padding: 6px 15px;
-  margin-bottom: 20px;
-  margin-top: 5px;
-  background:#B9D3EE;
-  /*0px right, 5px botton, 5px fuzzy*/
-  box-shadow: 0px 5px 5px #9FB6CD;
-  border-left: 6px solid #1874CD; 
-  position:relative;
+  font-size: 1.3em;
 }
-
 h4 {
-  font-size: 1.2em; 
-  padding: 6px 15px;
+  font-size: 1.2em;
 }
-
 h5 {
-  font-size: 1em; }
-
-p {
-  margin-bottom: 10px;
-  margin-top: 5px;
-  line-height: 1.7em; 
-  padding-left: 20px;
-}
-
-strong {
-  font-weight: bold; }
-
-em {
-  font-style: italic; }
-
-blockquote {
-  padding-top: 10px;
-  padding-bottom: 1px;
-  padding-left: 10px;
-  margin-left: 20px;
-
-  font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  font-weight: lighter;
   font-size: 1em;
-  border-left: 3px solid #4F4F4F; 
 }
-blockquote p:last-child {
-  margin-bottom: 0; }
+h6 {
+  font-size: 1em;
+}
 
-ol, ul {
-  margin: 0 0 1.3em 2.5em; }
-ol li, ul li {
-  margin: 0 0 .2em 0;
-  line-height: 1.6em; }
-ol ol, ol ul, ul ol, ul ul {
-  margin: .1em 0 .2em 2em; }
-ol {
-  list-style-type: decimal; }
 
-ul {
-  list-style-type: disc; }
+
+h3{/*增加对h3标题的修改*/
+  border-bottom:2px  solid   rgb(239,112,96);
+  font-size: 1.3em;
+}
+h3 span{/*增加对h3标题字体的修改*/
+  display:inline-block;
+  font-weight:normal;
+  background:rgb(239,112,96);
+  color:#ffffff;
+  padding:3px 10px 1px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  margin-right:3px;
+}
+h3:after{/*增加对h3标题后面的修饰*/
+  display: inline-block;
+  content:" ";
+  vertical-align: bottom;
+  border-bottom: 36px solid #EFEBE9;
+  border-right: 20px solid transparent;
+}
+
+
+ul, ol {
+  padding-left: 32px;
+}
+ul{ /*无序列表*/
+  list-style-type: disc;
+}
+ol { /*有序列表*/
+  list-style-type: decimal;
+}
+li *
+{
+  /* color: #3e3e3e;*/
+}
+
+li{  /*在公众号下，改变不了li符号的属性（如颜色），并会影响其子元素的属性;而在其它博客平台中，则能正常使用*/
+  margin-bottom: 0.5em;
+  /*  color:#159957; */
+}
+
 
 code {
   color: #000000;
@@ -208,41 +128,213 @@ pre code {
   border: none;
   word-wrap: normal; }
 
-table {
-  color: #333333;
-  font-size: .9em;
-  text-align: center;
-  line-height: 40px;
-  border: 2px solid #363636;
-  width: 90%;
-  margin: 50px auto; }
 
-thead tr:first-child {
-  background-color: #E0EEEE;
-  color: #363636;
-  text-align: center;
-  border: 1px solid #363636;
-}
-th {
-  font-weight: bold; 
-  border: 1px solid #363636;
-}
-table thead tr th {
-  text-align: center;
-}
+blockquote { /*引用块*/
+  display: block;
+  padding: 15px 1rem;
+  font-size: 0.9em;
+  padding-right: 15px;
+  margin: 1em 0;
 
-th:first-child, td:first-child {
-  padding: 0 15px 0 20px; 
+  /*更改默认值*/
+  color: #000000;
+  border-left: 5px solid rgb(239,112,96);
+  background: #EFEBE9;
+
+  overflow: auto;
+  overflow-scrolling: touch;
+  word-wrap: normal;
+  word-break: normal;
+}
+blockquote p {
+  margin: 0px;
 }
 
-tbody td {
-  font-size: .85em; 
-  border: 1px solid #363636;
+a { /*超链接*/
+  text-decoration: none;
+  color: #1e6bb8;
+  word-wrap:break-word;
 }
-td:last-child {
-  padding-right: 10px; 
-  border: 1px solid #363636;
+
+strong  /*强调*/
+{
+  font-weight: bold;
+  color: #0b1108;/*更改默认的颜色*/
 }
+em /*斜体*/
+{
+  /*font-style:italic;*//*把默认的斜体去掉*/
+  color: #0b1108;/*更改默认的颜色*/
+}
+del /*删除线*/
+{
+  font-style:italic;
+  text-decoration:none;/*把默认的删除线去掉*/
+  color:#2962FF;/*更改默认的颜色*/
+}
+strong em/*强调的斜体*/
+{
+  font-weight: bold;
+  color:#C51162;/*更改默认的颜色*/
+}
+
+
+hr {  /*分隔线*/
+  height: 1px;
+  margin: 1.5rem 0px;
+  border: none;
+  border-top: 1px dashed #A5A5A5;
+}
+
+
+code /*行内代码*/
+{
+  word-wrap: break-word;
+  padding: 2px 4px;
+  border-radius: 4px;
+  margin:0 2px;
+  color:#f82375;/*更改默认的颜色*/
+  background:#f8f8f8;
+}
+/*img*/
+/*{*/
+  /*display: block;*/
+  /*margin:0 0;  !*图片水平居中*!*/
+  /*!* margin:0 0;  *! !*图片水平居左，如需要请打开*!*/
+  /*max-width:100%;*/
+/*}*/
+figcaption/*图片描述文字*/
+{
+  margin-top:10px;
+  text-align:center;
+  /* text-align:left;  */ /*当图片水平居左时，请打开*/
+  color:#999;
+  font-size: 0.7em;
+}
+
+/*================表格开始================*/
+table
+{
+  display:table;
+  width: 100% ;
+  text-align: left;
+}
+tbody {
+  border: 0;
+}
+
+table tr {
+  border: 0;
+  border-top: 1px solid #CCC;
+  background-color: white;
+
+}
+
+/*隔行改变行的背景色*/
+table tr:nth-child(2n) {
+  background-color: #F8F8F8;
+}
+
+
+table tr th, table tr td {
+  font-size: 1em;
+  border: 1px solid #CCC;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+/*表头的属性*/
+table tr th {
+  font-weight: bold;
+  background-color: #F0F0F0;
+}
+/*================表格结束================*/
+
+
+
+/*================数学公式开始================*/
+.katex-display {/*块公式*/
+  font-size:1.22em;
+}
+.katex
+{/*行内公式*/
+  padding:8px 3px;
+}
+.katex-display > .katex
+{/*块公式*/
+  display:inline-block;
+  text-align:center;
+  padding:3px;
+}
+.katex img
+{/*行内公式对应的图片*/
+  display:inline-block;
+  vertical-align:middle;
+}
+/*================数学公式结束================*/
+
+a[href^="#"] sup
+{/*注脚*/
+  vertical-align:super;
+  margin:0 2px;
+  padding:1px 3px;
+  color: #ffffff;
+  background:#666666;
+  font-size:0.7em;
+}
+
+/*================任务列表开始================*/
+.task-list-list {
+  list-style-type: none;
+}
+.task-list-list.checked {/*已完成*/
+  color: #3e3e3e;
+}
+
+.task-list-list.uncheck {/*未完成*/
+  color: #bfc1bf;
+}
+.task-list-list .icon_uncheck, .task-list-list .icon_check {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.task-list-list .icon_check:before
+{/*已完成*/
+  content: "√";
+  border: 2px solid #3e3e3e;
+  color:red;
+}
+.task-list-list .icon_uncheck:before
+{/*未完成*/
+  content: "x";
+  border: 2px solid #bfc1bf;
+  color: #bfc1bf;
+}
+.task-list-list .icon_check:before, .task-list-list .icon_uncheck:before
+{/*标志框*/
+  padding:2px;
+  padding-left: 5px;
+  padding-right: 8px;
+  border-radius:5px;
+}
+/*================任务列表结束================*/
+
+.toc
+{/*总目录*/
+  margin-left:25px;
+}
+.toc_item
+{/*每条目录*/
+  display:block;
+
+}
+.toc_left
+{/*每级目录的缩进*/
+  margin-left:25px;
+}
+
+
+
 
 /*pager start----------------*/
 .post-container 

@@ -26,6 +26,7 @@ Output: "bb"
 2. Solution Brute Force
 
 ```java
+
 package com.silence.arts.leetcode.first;
 
 /**
@@ -84,14 +85,14 @@ public class LongestPalindrome_5 {
 ```
 
 > Think
-> Firstly, find out all of substrings
-> Secondly, Traversing the Characters of substring from both side to compare if they are same, such as substring[begin]  == substring[end]
-> if so,  begin += 1, end -= 1 until begin == end or begin = end -1
+> 1. Firstly, find out all of substrings
+> 2. Secondly, Traversing the Characters of substring from both side to compare if they are same, such as substring[begin]  == substring[end]
+> 3. if so,  begin += 1, end -= 1 until begin == end or begin = end -1
 
 ---
 > 思路
-> 先找出所有的子串
-> 遍历所有子串，从子串的两边开始遍历，如果`substring[begin] == substring[end]`则`begin += 1,end -= 1`直到`begin==end`，或者`begin + 1 end`时结束，再判断substring的长度是否大于len，
+> 1. 先找出所有的子串
+> 2. 遍历所有子串，从子串的两边开始遍历，如果`substring[begin] == substring[end]`则`begin += 1,end -= 1`直到`begin==end`，或者`begin + 1 end`时结束，再判断substring的长度是否大于len，
 
 ### Review
 [10 Tricks to Appear Smart During Meetings](https://medium.com/conquering-corporate-america/10-tricks-to-appear-smart-during-meetings-27b489a39d1a)

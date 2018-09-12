@@ -1,4 +1,4 @@
-<section class="footer">
+<section class="footer" id="footer" style="">
     <footer>
         <div class="footer_div">
             <nav class="cover-navigation navigation--social">
@@ -94,3 +94,12 @@
         </div>
     </footer>
 </section>
+<script>
+    var object = document.getElementById('footer');
+    if (window.location.pathname == '/' ) {
+        object.style.display = 'none';
+        document.getElementById('card').style.display = 'none';
+    }else {
+        object.style.display = 'block';
+    }
+</script>

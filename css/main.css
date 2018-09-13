@@ -476,7 +476,7 @@ img::-moz-selection {
     margin: 0 auto; }
 
   .content-wrapper {
-    z-index: 800;
+    z-index: 2;
     width: 70%;
     margin-left: 30%; }
 
@@ -651,7 +651,7 @@ img::-moz-selection {
     display: table-cell;
     vertical-align: middle;
     position: relative;
-    z-index: 800;
+    z-index: 2;
     padding: 0 0px; }
 
   .panel-main__content {

@@ -99,7 +99,9 @@
     if (window.location.pathname == '/' ) {
         object.style.display = 'none';
         document.getElementById('card').style.display = 'none';
+        document.getElementsByClassName('content-wrapper__inner')[0].style.cssText = 'padding:33% 0';
     }else {
         object.style.display = 'block';
+        document.getElementsByClassName('content-wrapper__inner')[0].style.cssText = 'padding:50px 0';
     }
 </script>

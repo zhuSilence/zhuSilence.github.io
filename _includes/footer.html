@@ -96,7 +96,7 @@
 </section>
 <script>
     var object = document.getElementById('footer');
-    if (window.location.pathname == '/' ) {
+    if (window.location.pathname == '/' && window.location.href.indexOf('#blog') == -1) {
         object.style.display = 'none';
         document.getElementById('card').style.display = 'none';
         document.getElementsByClassName('content-wrapper__inner')[0].style.cssText = 'padding:33% 0';

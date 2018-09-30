@@ -3,7 +3,7 @@ title: Silence's blog
 subtitle: 个人兴趣
 description: 不卑不亢，不骄不躁<br>积聚能量，蓄势待发
 # 头像里面的标题
-avatarTitle: silence
+avatarTitle: Silence
 # 头像里面的描述
 avatarDesc: java</br>励志全栈工程师
 url: ""
@@ -60,7 +60,7 @@ nav:
     - {title: 所有文章, description: archive, url: '/archive'}   
     - {title: 标签, description: tags, url: '/tags'}      
     - {title: 关于我, description: about, url: '/about'}      
-#    - {title: 个人简历, description: 简历, url: '/about.html'}
+    - {title: 简历, description: 简历, url: '/resume.html'}
 
 
 # Pagination

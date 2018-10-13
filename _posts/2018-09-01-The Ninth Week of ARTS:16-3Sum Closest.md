@@ -94,8 +94,8 @@ public class SumClosest_16 {
 
 ### Share
 #### Sharing
-[记一次线上Nginx响应超时问题](https://zxsilence.cn/2018/08/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%BA%BF%E4%B8%8ANginx%E5%93%8D%E5%BA%94%E8%B6%85%E6%97%B6%E9%97%AE%E9%A2%98/)
+[记一次线上Nginx响应超时问题](http://zxsilence.cn/2018/08/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%BA%BF%E4%B8%8ANginx%E5%93%8D%E5%BA%94%E8%B6%85%E6%97%B6%E9%97%AE%E9%A2%98/)
 
 #### One more thing
 - Personal Medium Home Page: [https://medium.com/@zhuxiang134](https://medium.com/@zhuxiang134)
-- Personal Website: [https://zxsilence.cn/](https://zxsilence.cn/)
+- Personal Website: [http://zxsilence.cn/](http://zxsilence.cn/)

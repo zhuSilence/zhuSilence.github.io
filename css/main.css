@@ -828,7 +828,8 @@ img::-moz-selection {
   }
 
   .navigation__item a:hover {
-    color: #fff;
+    color: #000;
+    font-size: large;
   }
 
   .navigation__item_social {

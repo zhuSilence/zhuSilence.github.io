@@ -10,10 +10,9 @@ title: 关于我
 ### 技能
 1. 目前从事Java Web开发，在公司负责广告系统的开发和维护工作，熟悉SSM框架
 2. 有过Kafka处理千万级数据量的经历
-3. 了解部分前端技术和基本Linux服务器的知识。
-
-2017.10.17
-1. 目前在自学Python
+3. 有Java 多线程，微服务项目经验
+4. 了解前端技术和基本Linux服务器的知识。
+5. 了解 Python
 
 ### 致谢
 感谢 <a href="http://baixin.io" target="_blank">leopardpan</a> 提供blog模板和文章给出的支持。

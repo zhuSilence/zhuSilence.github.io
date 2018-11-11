@@ -86,6 +86,8 @@ As a visual designer, the author thinks that all web pages on the internet looke
     1. 不允许存放重复 value 的集合，底层用`HashMap` 实现；
     2. `add` 时基于`map.put(key, PRESNET) == null`
     3. `map` 的 `put` 方法返回旧值或者 `null`
+5. 升级`jekyll`
+    1. `bundle update jekyll` or `bundle update`
 
 ### Share
 #### Sharing

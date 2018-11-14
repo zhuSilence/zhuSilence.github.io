@@ -10,13 +10,16 @@ tag: Spark
 
 ### Work Count
 #### maven依赖
-``` <dependencies>
-            <dependency>
-                <groupId>org.apache.spark</groupId>
-                <artifactId>spark-core_2.10</artifactId>
-                <version>1.2.0</version>
-            </dependency>
-        </dependencies>
+
+```
+<dependencies>
+   <dependency>
+     <groupId>org.apache.spark</groupId>
+     <artifactId>spark-core_2.10</artifactId>
+     <version>1.2.0</version>
+   </dependency>
+</dependencies>
+
 ```
 
 #### java代码

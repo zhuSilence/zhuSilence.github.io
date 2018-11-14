@@ -1137,6 +1137,7 @@ input[type="tel"]:-ms-input-placeholder {
   width: 100%;
   margin-left: -35px;
   text-align: center;
+
 }
 @media all and (max-width: 1300px) {
   .panel-cover__logo {

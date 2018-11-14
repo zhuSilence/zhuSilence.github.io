@@ -477,8 +477,8 @@ img::-moz-selection {
 
   .content-wrapper {
     /*z-index: 2;*/
-    width: 70%;
-    margin-left: 30%; }
+    width: 75%;
+    margin-left: 25%; }
 
   .content-wrapper__inner {
     /*margin: 0 10%;*/
@@ -1134,8 +1134,8 @@ input[type="tel"]:-ms-input-placeholder {
 }
 .cover-navigation .navigation {
   display: block;
-  width: 100%;      
-  margin-left: 0px;
+  width: 100%;
+  margin-left: -35px;
   text-align: center;
 }
 @media all and (max-width: 1300px) {

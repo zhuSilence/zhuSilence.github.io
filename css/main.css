@@ -643,12 +643,13 @@ img::-moz-selection {
     width: 15%; }
 
   .panel-main {
-    display: table;
+    /*display: table;*/
+    margin-top: 200px;
     width: 100%;
     height: 100%; }
 
   .panel-main__inner {
-    display: table-cell;
+    /*display: table-cell;*/
     vertical-align: middle;
     position: relative;
     z-index: 2;

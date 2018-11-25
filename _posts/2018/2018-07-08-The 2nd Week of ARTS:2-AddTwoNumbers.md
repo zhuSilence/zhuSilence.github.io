@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Second Week Of ARTS:2-AddTwoNumbers
+title: The 2nd Week Of ARTS:2-AddTwoNumbers
 date: 2018-07-02
 tag: ARTS
 ---

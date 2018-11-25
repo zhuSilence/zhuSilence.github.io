@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Sixth Week of ARTS:7-ReverseInteger And 9-PalindromeNumber
+title: The 6th Week of ARTS:7-ReverseInteger And 9-PalindromeNumber
 date: 2018-08-05
 tag: ARTS
 ---

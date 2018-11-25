@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Seventh Week of ARTS:94-Binary Tree Inorder Traversal
+title: The 7th Week of ARTS:94-Binary Tree Inorder Traversal
 date: 2018-08-11
 tag: ARTS
 ---

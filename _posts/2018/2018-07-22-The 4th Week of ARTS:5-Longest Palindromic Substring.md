@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Fourth Week of ARTS:5-Longest Palindromic Substring
+title: The 4th Week of ARTS:5-Longest Palindromic Substring
 date: 2018-07-22
 tag: ARTS
 ---

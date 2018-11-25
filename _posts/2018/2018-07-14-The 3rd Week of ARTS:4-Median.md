@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Third Week of ARTS:4-Median of Two Sorted Arrays
+title: The 3rd Week of ARTS:4-Median of Two Sorted Arrays
 date: 2018-07-14
 tag: ARTS
 ---

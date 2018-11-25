@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Fourteenth Week of ARTS:LinkedListCycle_142
+title: The 14th Week of ARTS:LinkedListCycle_142
 date: 2018-11-25
 tag: ARTS
 ---

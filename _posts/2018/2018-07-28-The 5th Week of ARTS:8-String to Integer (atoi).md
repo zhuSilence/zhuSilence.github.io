@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Fifth Week of ARTS:8-String to Integer (atoi)
+title: The 5th Week of ARTS:8-String to Integer (atoi)
 date: 2018-07-28
 tag: ARTS
 ---

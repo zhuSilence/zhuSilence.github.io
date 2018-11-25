@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The First Week of ARTS:1-Two Sum
+title: The 1st Week of ARTS:1-Two Sum
 date: 2018-07-02
 tag: ARTS
 ---

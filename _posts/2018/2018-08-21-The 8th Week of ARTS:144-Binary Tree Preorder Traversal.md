@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Eighth Week of ARTS:144-Binary Tree Preorder Traversal
+title: The 8th Week of ARTS:144-Binary Tree Preorder Traversal
 date: 2018-08-21
 tag: ARTS
 ---

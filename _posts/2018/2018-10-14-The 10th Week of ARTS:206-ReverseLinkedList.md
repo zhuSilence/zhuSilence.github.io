@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Tenth Week of ARTS:206-ReverseLinkedList
+title: The 10th Week of ARTS:206-ReverseLinkedList
 date: 2018-10-14
 tag: ARTS
 ---

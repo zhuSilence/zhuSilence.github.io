@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Twelfth Week of ARTS:LinkedListCycle_141
+title: The 12th Week of ARTS:LinkedListCycle_141
 date: 2018-11-11
 tag: ARTS
 ---

@@ -57,6 +57,7 @@ public class ValidParentheses_20 {
             Stack<String> stack = new Stack<>();
             for (int i = 0; i < s.length(); i++) {
                 String val = String.valueOf(s.charAt(i));
+                //if (!map.containsKey(val)) {
                 if (val.equals("(") || val.equals("[") || val.equals("{")) {
                     stack.push(val);
                 } else if (stack.size() <= 0 || !map.get(val).equals(stack.pop())) {

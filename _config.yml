@@ -60,11 +60,11 @@ nav:
     - {title: 文章, description: archive, url: '/archive'}
     - {title: 标签, description: tags, url: '/tags'}
     - {title: 关于, description: about, url: '/about'}
-    - {title: 简历, description: 简历, url: '/resume.html'}
+#    - {title: 简历, description: 简历, url: '/resume.html'}
 
 
 # Pagination
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 paginate: 20
 paginate_path: "page/:num/"
 

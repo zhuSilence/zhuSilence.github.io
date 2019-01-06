@@ -830,7 +830,7 @@ img::-moz-selection {
 
   .navigation__item a:hover {
     color: #000;
-    font-size: large;
+    /*font-size: large;*/
   }
 
   .navigation__item_social {

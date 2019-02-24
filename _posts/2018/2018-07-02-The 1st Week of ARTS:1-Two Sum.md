@@ -114,7 +114,7 @@ Then we changed the strategy, adjust one thread for an instance. The problem was
 ### Technique
 For the first time, I didn't have any Technique to share.
 1. Just put my personal website here:
-    [personal website](http://zxsilence.me/)
+    [personal website](http://zxsilence.cn/)
 
 2. The leetCode code is here:
     [ARTS Code](https://github.com/zhuSilence/ARTS)
@@ -124,7 +124,7 @@ For the first time, I didn't have any Technique to share.
 1. Azkaban
     - Last week did a survey about Azkaban a distributed task dispatch system.
     - Azkaban was implemented at LinkedIn to solve the problem of Hadoop job dependencies. We had jobs that needed to run in order, from ETL jobs to data analytics products.
-    -  [Azkaban](http://zxsilence.me/2018/06/%E4%BB%BB%E5%8A%A1%E8%B0%83%E5%BA%A6Azkaban/)
+    -  [Azkaban](http://zxsilence.cn/2018/06/%E4%BB%BB%E5%8A%A1%E8%B0%83%E5%BA%A6Azkaban/)
 
 2. Md2All
     - A online website to style your Md.

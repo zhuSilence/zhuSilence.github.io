@@ -93,7 +93,7 @@ NO Tips
 
 ### Share
 #### Sharing
-- [个人博客Google AdSense接入](http://zxsilence.me/2018/09/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2Google-AdSense%E6%8E%A5%E5%85%A5/)
+- [个人博客Google AdSense接入](http://zxsilence.cn/2018/09/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2Google-AdSense%E6%8E%A5%E5%85%A5/)
 - I don't know why there are no ads on the website while you use a browser to read the essay. But if you read the essay on your phone it will be ads on there.
 
 #### One more thing

@@ -2,7 +2,7 @@
 layout: post
 title: 2019-03-26-加入Java Geek Tech
 date: 2019-03-26
-tag: Java Geek Tech
+tag: geekTech
 ---
 
 # Java Geek Tech

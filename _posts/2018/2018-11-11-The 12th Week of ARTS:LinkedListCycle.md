@@ -116,8 +116,8 @@ As a visual designer, the author thinks that all web pages on the internet looke
 
 ### Share
 #### Sharing
-[常用算法笔记——持续更新](http://zxsilence.cn/2018/11/%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/)
+[常用算法笔记——持续更新](https://zxsilence.cn/2018/11/%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0/)
 
 #### One more thing
 - Personal Medium Home Page: [https://medium.com/@zhuxiang134](https://medium.com/@zhuxiang134)
-- Personal Website: [http://zxsilence.cn/](http://zxsilence.cn/)
+- Personal Website: [https://zxsilence.cn/](https://zxsilence.cn/)

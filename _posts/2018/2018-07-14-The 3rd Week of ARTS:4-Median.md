@@ -128,5 +128,5 @@ This week I am going to talk about the article **What motivates more: positive o
 ### Share
 前段时间项目中使用Consul作为服务器注册和发现的使用，结合Consul-template组件实现服务上下线后，nginx配置文件自动更新的功能。
 具体实现见下文。
-[Consul-template，nginx实现负载均衡和服务列表自动更新](http://zxsilence.cn/2018/04/Consul-template,-Nginx%E5%AE%9E%E7%8E%B0Thrift-Consul%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1/)
+[Consul-template，nginx实现负载均衡和服务列表自动更新](https://zxsilence.cn/2018/04/Consul-template,-Nginx%E5%AE%9E%E7%8E%B0Thrift-Consul%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1/)
 

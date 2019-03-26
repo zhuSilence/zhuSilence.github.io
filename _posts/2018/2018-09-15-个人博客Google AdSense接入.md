@@ -34,8 +34,8 @@ tag: 博客
 
 ### 结语
 嗯，现在自己有了一个日常任务，就是每天看几次博客，然后点点广告😂，毕竟没什么访问量，还得靠自己😅
-欢迎去点广告🙃🙃🙃[http://zxsilence.cn/](http://zxsilence.cn/)
+欢迎去点广告🙃🙃🙃[https://zxsilence.cn/](https://zxsilence.cn/)
 
 #### One more thing
 - Personal Medium Home Page: [https://medium.com/@zhuxiang134](https://medium.com/@zhuxiang134)
-- Personal Website: [http://zxsilence.cn/](http://zxsilence.cn/)
+- Personal Website: [https://zxsilence.cn/](https://zxsilence.cn/)

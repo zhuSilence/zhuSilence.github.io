@@ -127,4 +127,4 @@ To achieve that I need two things:
 2. A shell file
 
 **You can read the following article for more details.**
- [基于Github的Webhook实现发布代码后网站自动部署](http://zxsilence.cn/2018/07/%E5%9F%BA%E4%BA%8EGithub%E7%9A%84Webhook%E5%AE%9E%E7%8E%B0%E5%8F%91%E5%B8%83%E4%BB%A3%E7%A0%81%E5%90%8E%E7%BD%91%E7%AB%99%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/)
+ [基于Github的Webhook实现发布代码后网站自动部署](https://zxsilence.cn/2018/07/%E5%9F%BA%E4%BA%8EGithub%E7%9A%84Webhook%E5%AE%9E%E7%8E%B0%E5%8F%91%E5%B8%83%E4%BB%A3%E7%A0%81%E5%90%8E%E7%BD%91%E7%AB%99%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/)

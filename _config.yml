@@ -1,5 +1,5 @@
 # Basic
-title: Silence's blog
+title: ziyou's blog
 subtitle: 个人兴趣
 description: 不卑不亢，不骄不躁<br>积聚能量，蓄势待发
 # 头像里面的标题
@@ -60,6 +60,7 @@ nav:
     - {title: 文章, description: archive, url: '/archive'}
     - {title: 标签, description: tags, url: '/tags'}
     - {title: 关于, description: about, url: '/about'}
+    - {title: Java极客技术, description: Java极客技术, url: 'http://www.justdojava.com'}
 #    - {title: 简历, description: 简历, url: '/resume.html'}
 
 

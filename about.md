@@ -14,6 +14,10 @@ title: 关于我
 4. 了解前端技术和基本Linux服务器的知识。
 5. 了解 Python
 
+### links
+<a href="http://www.justdojava.com/" style="text-decoration: none" target="_blank">Java极客技术</a>
+
+
 ### 致谢
 感谢 <a href="http://baixin.io" target="_blank">leopardpan</a> 提供blog模板和文章给出的支持。
 

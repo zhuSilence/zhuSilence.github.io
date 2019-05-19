@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 聊聊面试中的 Java 线程池
+title: 聊聊面试中的 ThreadLocal 原理和使用场景
 date: 2019-05-12
 tag: geekTech
 ---

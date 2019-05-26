@@ -106,10 +106,12 @@
     }
 
     //控制广告长度
-    document.getElementById('google_ads_frame1').width = '80%';
-    document.getElementById('google_ads_frame2').width = '80%';
-    document.getElementById('google_ads_frame3').width = '80%';
-    document.getElementById('google_ads_frame4').width = '80%';
-    document.getElementById('google_ads_frame5').width = '80%';
-    document.getElementById('google_ads_frame6').width = '80%';
+    setTimeout(function () {
+        for (var i = 0; i < 5; i++) {
+            var id = 'google_ads_frame' + i;
+            if (document.getElementById(id) != undefined) {
+                document.getElementById(id).width = '80%';
+            }
+        }
+    }, 1000);
 </script>

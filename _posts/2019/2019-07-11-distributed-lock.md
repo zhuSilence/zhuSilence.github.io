@@ -49,7 +49,7 @@ tag: geekTech
 
 百度也有一个开源的分布式 Redis 锁叫 [dlock](https://github.com/baidu/dlock)，我们采用就是这个，目前使用这么久还没出现什么问题。使用方式类似下面：
 
-![image-20190712004046007](/Users/silence/Library/Application Support/typora-user-images/image-20190712004046007.png)
+![image-20190712004046007](http://www.justdojava.com/assets/images/2019/java/image_ziyou/lock1.png)
 
 #### 优缺点
 

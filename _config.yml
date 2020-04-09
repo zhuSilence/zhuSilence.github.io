@@ -1,5 +1,5 @@
 # Basic
-title: ziyou's blog
+title: ziyou's 博客
 #subtitle: 个人兴趣
 description: 不卑不亢，不骄不躁<br>积聚能量，蓄势待发
 # 头像里面的标题
@@ -18,12 +18,12 @@ comment:
 social:
     weibo: /u/2811030537
     github: zhuSilence
-    # twitter: 
+    # twitter:
     mail: zhuxiang134@gmail.com
 
 
-# 百度统计 
-# 使用博客模板请去掉或者更换 id 
+# 百度统计
+# 使用博客模板请去掉或者更换 id
 baidu:
     id: 770a4ac62c4d64e5bdc1e59443d24cfc
 
